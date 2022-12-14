@@ -1,0 +1,3 @@
+packages:
+  - 'ember-with-css-imports'
+  - 'test-app'
