@@ -31,6 +31,7 @@
     "@glimmer/tracking": "^1.1.2",
     "babel-eslint": "^10.1.0",
     "broccoli-asset-rev": "^3.0.0",
+    "css-loader": "^6.7.2",
     "ember-auto-import": "^2.4.2",
     "ember-cli": "~4.7.0",
     "ember-cli-app-version": "^5.0.0",
@@ -51,7 +52,6 @@
     "ember-source-channel-url": "^3.0.0",
     "ember-template-lint": "^4.14.0",
     "ember-try": "^2.0.0",
-    "ember-with-css-imports": "^0.0.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-ember": "^11.0.6",
@@ -63,7 +63,11 @@
     "prettier": "^2.7.1",
     "qunit": "^2.19.1",
     "qunit-dom": "^2.0.0",
+    "style-loader": "^3.3.1",
     "webpack": "^5.74.0"
+  },
+  "dependencies": {
+    "ember-with-css-imports": "workspace:../ember-with-css-imports"
   },
   "engines": {
     "node": "14.* || >= 16"
